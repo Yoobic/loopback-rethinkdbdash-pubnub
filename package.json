@@ -1,0 +1,87 @@
+{
+  "name": "loopback-rethinkdbdash-pubnub",
+  "version": "0.0.1",
+  "description": "RethinkDB connector for Loopback.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp lint",
+    "test-verbose": "make test-verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Yoobic/loopback-rethinkdbdash-pubnub"
+  },
+  "keywords": [
+    "server",
+    "loopback",
+    "connector",
+    "rethinkdb",
+    "rethinkdbdash"
+  ],
+  "author": "Yoobic <dev@yoobic.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yoobic/loopback-rethinkdbdash-pubnub/issues"
+  },
+  "homepage": "https://github.com/Yoobic/loopback-rethinkdbdash-pubnub",
+  "dependencies": {
+    "bluebird": "^2.9.27",
+    "debug": "^2.2.0",
+    "lodash": "^3.9.3"
+  },
+  "devDependencies": {
+    "loopback-datasource-juggler": "^2.29.2",
+    "should": "^6.0.3",
+    "chai": "3.0.0",
+    "chalk": "1.0.0",
+    "conventional-changelog": "0.0.17",
+    "del": "1.2.0",
+    "github": "0.2.4",
+    "github-username": "2.0.0",
+    "growly": "1.2.0",
+    "gulp": "3.9.0",
+    "gulp-bump": "0.3.1",
+    "gulp-concat": "2.5.2",
+    "gulp-eslint": "0.13.2",
+    "gulp-exec": "2.1.1",
+    "gulp-git": "1.2.4",
+    "gulp-help": "1.6.0",
+    "gulp-if": "1.2.5",
+    "gulp-istanbul": "0.10.0",
+    "gulp-jscs": "1.6.0",
+    "gulp-jshint": "1.11.0",
+    "gulp-load-plugins": "0.10.0",
+    "gulp-mocha": "2.1.1",
+    "gulp-mux": "latest",
+    "gulp-plumber": "1.0.1",
+    "gulp-tap": "0.1.3",
+    "gulp-util": "3.0.5",
+    "inquirer": "0.8.5",
+    "jasmine-core": "2.3.4",
+    "jasmine-reporters": "2.0.6",
+    "jasmine-spec-reporter": "2.2.3",
+    "jshint-stylish": "2.0.0",
+    "map-stream": "0.0.5",
+    "mocha": "2.2.5",
+    "mocha-lcov-reporter": "0.0.2",
+    "nock": "^2.4.1",
+    "node-jsxml": "0.6.0",
+    "q": "1.4.1",
+    "require-dir": "0.3.0",
+    "run-sequence": "1.1.0",
+    "sinon": "1.15.1",
+    "stream-combiner": "0.2.2",
+    "streamqueue": "1.1.0",
+    "strip-json-comments": "1.0.2",
+    "supertest": "1.0.1",
+    "supertest-as-promised": "2.0.1",
+    "yargs": "3.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib/",
+    "bin/"
+  ]
+}
