@@ -27,10 +27,10 @@
   "dependencies": {
     "bluebird": "^2.9.27",
     "debug": "^2.2.0",
-    "lodash": "^3.9.3"
+    "lodash": "^3.9.3",
+    "pubnub": "^3.7.11"
   },
   "devDependencies": {
-    "loopback-datasource-juggler": "^2.29.2",
     "should": "^6.0.3",
     "chai": "3.0.0",
     "chalk": "1.0.0",

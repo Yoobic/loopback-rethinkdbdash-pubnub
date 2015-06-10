@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib/rethink');
+module.exports = require('./lib/realtime-pubnub.js');
