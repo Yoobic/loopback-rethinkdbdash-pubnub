@@ -8,7 +8,20 @@ A middleware for binding change feed to pubnub channels
 
 [![NPM](https://nodei.co/npm/loopback-rethinkdbdash-pubnub.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/loopback-rethinkdbdash-pubnub)
 
-## Description
+## Usage
+This library is used during the bootstrap of the loopback server
+```js
+boot(app, __dirname, function(err) {
+    if (err) throw err;
+
+    // start the server if `$ node server.js`
+    if (require.main === module) {
+        require('loopback-rethinkdbdash-pubnub')(app, 'PUBNUB PUBLISH KEY HERE', 'PUBNUB SUBSRIBEKEY HERE');
+        app.start();
+    }
+
+});
+```
 
 ## Changelog
 
