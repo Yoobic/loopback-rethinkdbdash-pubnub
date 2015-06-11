@@ -1,4 +1,4 @@
-# Loopback connector for RethinkDB.
+# Loopback binder between rethinkdb change feeds and pubnub.
 
 [![NPM version](https://badge.fury.io/js/loopback-rethinkdbdash-pubnub.svg)](http://badge.fury.io/js/loopback-rethinkdbdash-pubnub) [![Downloads](http://img.shields.io/npm/dm/loopback-rethinkdbdash-pubnub.svg)](http://badge.fury.io/js/loopback-rethinkdbdash-pubnub)   
 [![Build Status](https://travis-ci.org/Yoobic/loopback-rethinkdbdash-pubnub.svg?branch=master)](https://travis-ci.org/Yoobic/loopback-rethinkdbdash-pubnub) [![Test Coverage](https://codeclimate.com/github/Yoobic/loopback-rethinkdbdash-pubnub/badges/coverage.svg)](https://codeclimate.com/github/Yoobic/loopback-rethinkdbdash-pubnub) [![Code Climate](https://codeclimate.com/github/Yoobic/loopback-rethinkdbdash-pubnub/badges/gpa.svg)](https://codeclimate.com/github/Yoobic/loopback-rethinkdbdash-pubnub)   
