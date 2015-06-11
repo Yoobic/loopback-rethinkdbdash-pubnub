@@ -4,8 +4,7 @@
   "description": "RethinkDB connector for Loopback.io",
   "main": "index.js",
   "scripts": {
-    "test": "gulp lint",
-    "test-verbose": "make test-verbose"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -28,7 +27,8 @@
     "bluebird": "^2.9.27",
     "debug": "^2.2.0",
     "lodash": "^3.9.3",
-    "pubnub": "^3.7.11"
+    "pubnub": "^3.7.11",
+    "uuid": "^2.0.1"
   },
   "devDependencies": {
     "should": "^6.0.3",

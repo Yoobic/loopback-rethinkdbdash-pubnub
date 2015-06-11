@@ -51,7 +51,7 @@ module.exports = function() {
             './*.js', 'gulpfile.js', './gulp_tasks/**/*.js', './test/**/*.js', './lib/**/*.js'
         ],
         mocha: {
-            libs: ['./*.js', '!gulpfile.js'],
+            libs: ['./*.js', '!gulpfile.js', './lib/**/*.js'],
             tests: ['./test/**/*.js'],
             globals: 'test/helpers/globals.js',
             timeout: 5000
