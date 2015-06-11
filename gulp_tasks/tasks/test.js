@@ -4,7 +4,7 @@ var runSequence = require('run-sequence');
 var $ = require('gulp-load-plugins')();
 var mocha = $.mocha;
 var istanbul = $.istanbul;
-var gutil = require('gulp-util');
+//var gutil = require('gulp-util');
 var constants = require('../common/constants')();
 
 gulp.task('mocha', 'Runs mocha unit tests.', function() {
@@ -22,15 +22,16 @@ gulp.task('mocha', 'Runs mocha unit tests.', function() {
                     globals: constants.mocha.globals,
                     timeout: constants.mocha.timeout
                 }))
-                .on('error', function(err) {
-                    gutil.log(err.toString());
-                })
+                // .on('error', function(err) {
+                //     gutil.log(err.toString());
+                // })
                 .pipe(istanbul.writeReports({
                     reporters: ['lcov', 'json', 'text', 'text-summary', 'cobertura']
                 }))
                 .once('end', function() {
                     process.exit();
                 });
+
         });
 });
 

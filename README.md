@@ -16,7 +16,9 @@ boot(app, __dirname, function(err) {
 
     // start the server if `$ node server.js`
     if (require.main === module) {
-        require('loopback-rethinkdbdash-pubnub')(app, 'PUBNUB PUBLISH KEY HERE', 'PUBNUB SUBSRIBEKEY HERE');
+        var realtime = require('loopback-rethinkdbdash-pubnub')();
+        realtime.init(app, 'PUBNUB PUBLISH KEY HERE', 'PUBNUB SUBSCRIBE KEY HERE');
+        realtime.start();
         app.start();
     }
 

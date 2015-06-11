@@ -31,7 +31,6 @@
     "uuid": "^2.0.1"
   },
   "devDependencies": {
-    "should": "^6.0.3",
     "chai": "3.0.0",
     "chalk": "1.0.0",
     "conventional-changelog": "0.0.17",
@@ -61,6 +60,8 @@
     "jasmine-reporters": "2.0.6",
     "jasmine-spec-reporter": "2.2.3",
     "jshint-stylish": "2.0.0",
+    "loopback": "^2.18.0",
+    "loopback-connector-rethinkdbdash": "0.0.6",
     "map-stream": "0.0.5",
     "mocha": "2.2.5",
     "mocha-lcov-reporter": "0.0.2",
@@ -69,6 +70,7 @@
     "q": "1.4.1",
     "require-dir": "0.3.0",
     "run-sequence": "1.1.0",
+    "should": "^6.0.3",
     "sinon": "1.15.1",
     "stream-combiner": "0.2.2",
     "streamqueue": "1.1.0",
